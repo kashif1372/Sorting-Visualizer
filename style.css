@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+
+    color: rgb(0, 0, 0);
+    font-size: 300%;
+    vertical-align: middle;
+    font-family:  sans-serif,Arial, Helvetica;
+    text-align: center;
+    height:10vh;
+    width:100vw;
+    line-height: 10vh;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(178, 96, 255);
+    padding: 5px 15px;
+    margin: 3px;
+}
+.bars {
+	width: 3%;
+	background-color: #fceb00;
+	display: inline-block;
+    transition: 0.3s all ease;
+    vertical-align: sub;
+    top: 30%;
+}
+
+.bars_id {
+	padding-left: 20%;
+	color: black;
+	margin-top: -20px;
+	width: 100%;
+	text-align: center;
+}
+
+.rightCanvas{
+   
+    width:80vw;
+    height: 85vh;
+    left:20px;
+    display: block;
+
+}
+.array{
+padding-left: 10vw;
+margin-top: 10%;
+}

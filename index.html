@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Sorting Visualizer</title>
+</head>
+<body>
+	<header>Sorting Visualizer</header>
+	<div class="container">
+		<div class= "sidePanel">
+
+		<button onclick="generatearray()" id ="GenAry">Generate Array</button>
+		<button onclick ="customArray()" id = "CusAry">Custom Array</button>
+		<form onsubmit="return false;">
+			<div id = "inputArray"></div>
+		</form>
+		<input type = "range" min=3 max=15 step =1 >
+		<div id="dropdown">
+			<select id='selectAlgo'>
+				<option value='0'>Bubble Sort</option> 
+				<option value='1'>Selection Sort</option> 
+				<option value='2'>Merge Sort</option> 
+				<option value='3'>Quick Sort</option> 
+			  </select>
+			  
+			  <button onclick="getAlgo()" id ="SltBtn" >Select</button>
+
+
+		</div>
+		<div></div>
+		<button onclick="StartStop()" id ="StartStop">Start</button>
+		</div>
+		<div class = "rightCanvas">
+		<div class ="array" id= "array"></div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
